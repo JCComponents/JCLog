@@ -1,0 +1,6 @@
+framework module JCLog {
+  umbrella header "JCLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

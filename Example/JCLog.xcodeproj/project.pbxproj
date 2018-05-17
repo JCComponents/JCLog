@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6890F0D227B1E946AC892C8E /* Pods-JCLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCLog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCLog_Tests/Pods-JCLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E25FB3D4F684F83BBA5880F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E25FB3D4F684F83BBA5880F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D462D23636760C5373C7BCA /* JCLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JCLog.podspec; path = ../JCLog.podspec; sourceTree = "<group>"; };
+		7D462D23636760C5373C7BCA /* JCLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JCLog.podspec; path = ../JCLog.podspec; sourceTree = "<group>"; };
 		7F7AB8D9CFD65B54E856BC00 /* Pods-JCLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCLog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JCLog_Example/Pods-JCLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97E73F9279F5238FF1D5D671 /* Pods-JCLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCLog_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCLog_Example/Pods-JCLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C923ABAD928903A71A2297B3 /* Pods_JCLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F77AD555E9A0731F7A0C2C69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F77AD555E9A0731F7A0C2C69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
