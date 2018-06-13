@@ -7,6 +7,7 @@
 //
 
 #import "JCViewController.h"
+#import <JCLog/JCLog.h>
 
 @interface JCViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    JCLogInfo(@"test");
 }
 
 - (void)didReceiveMemoryWarning

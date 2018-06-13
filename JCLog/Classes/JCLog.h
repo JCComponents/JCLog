@@ -27,10 +27,10 @@ typedef NS_ENUM(NSInteger, JCLogType) {
 };
 
 // Log macros
-#define JCLogVerbose(mat, ...) [JCLogManager logType:JCLogTypeVerbose message:mat, ##__VA_ARGS__]
-#define JCLogInfo(mat, ...) [JCLogManager logType:JCLogTypeInfo message:mat, ##__VA_ARGS__]
-#define JCLogWarn(mat, ...) [JCLogManager logType:JCLogTypeWarning message:mat, ##__VA_ARGS__]
-#define JCLogError(mat, ...) [JCLogManager logType:JCLogTypeError message:mat, ##__VA_ARGS__]
+#define JCLogVerbose(mat, ...) [JCLog logType:JCLogTypeVerbose message:mat, ##__VA_ARGS__]
+#define JCLogInfo(mat, ...) [JCLog logType:JCLogTypeInfo message:mat, ##__VA_ARGS__]
+#define JCLogWarn(mat, ...) [JCLog logType:JCLogTypeWarning message:mat, ##__VA_ARGS__]
+#define JCLogError(mat, ...) [JCLog logType:JCLogTypeError message:mat, ##__VA_ARGS__]
 
 #if DEBUG
 #define JCDebugLog(mat,...) NSLog((@"DebugLog: " mat),##__VA_ARGS__)
