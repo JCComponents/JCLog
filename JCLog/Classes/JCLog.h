@@ -26,16 +26,16 @@ typedef NS_ENUM(NSInteger, JCLogType) {
     JCLogTypeError,
 };
 
-//配置高德地图
+// Log macros
 #define JCLogVerbose(mat, ...) [JCLogManager logType:JCLogTypeVerbose message:mat, ##__VA_ARGS__]
-#define LCLogInfo(mat, ...) [JCLogManager logType:JCLogTypeInfo message:mat, ##__VA_ARGS__]
-#define LCLogWarn(mat, ...) [JCLogManager logType:JCLogTypeWarning message:mat, ##__VA_ARGS__]
-#define LCLogError(mat, ...) [JCLogManager logType:JCLogTypeError message:mat, ##__VA_ARGS__]
+#define JCLogInfo(mat, ...) [JCLogManager logType:JCLogTypeInfo message:mat, ##__VA_ARGS__]
+#define JCLogWarn(mat, ...) [JCLogManager logType:JCLogTypeWarning message:mat, ##__VA_ARGS__]
+#define JCLogError(mat, ...) [JCLogManager logType:JCLogTypeError message:mat, ##__VA_ARGS__]
 
 #if DEBUG
-#define LCDebugLog(mat,...) NSLog((@"DebugLog: " mat),##__VA_ARGS__)
+#define JCDebugLog(mat,...) NSLog((@"DebugLog: " mat),##__VA_ARGS__)
 #else
-#define LCDebugLog(...)
+#define JCDebugLog(...)
 #endif
 
 @interface JCLog : NSObject
