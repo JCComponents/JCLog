@@ -3,7 +3,7 @@
 //  JCLog
 //
 //  Created by JC on 2018/5/17.
-//  Copyright © 2018年 lswhcmcc. All rights reserved.
+//  Copyright © 2018年 lswh. All rights reserved.
 //
 
 #import "JCLog.h"
